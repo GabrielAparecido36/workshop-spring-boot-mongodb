@@ -41,7 +41,7 @@ public class UserService {
 		return repo.save(newObj);
 	}
 	
-	private void updateData(User newObj, User obj) {
+	private void updateData(User newObj, User obj) { // updateData serve para atualizar dados especificos do usuário, de acordo com a vontade da negociação
 		newObj.setName(obj.getName());
 		newObj.setEmail(obj.getEmail());
 		
